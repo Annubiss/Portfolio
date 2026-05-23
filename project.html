@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Share+Tech+Mono&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <a href="index.html" class="back-link">← Back</a>
+        <h1 id="project-title"></h1>
+        <p class="site-subtitle" id="project-subtitle-skills"></p>
+    </header>
+
+    <div class="project-grid">
+
+        <div class="project-main">
+            <p class="project-label">Descriere</p>
+            <p id="project-description" class="project-description"></p>
+
+            <div class="project-actions">
+                
+                
+            </div>
+        </div>
+
+        <div class="project-side">
+            <p class="project-label">Skills folosite</p>
+            <div id="project-skills" class="project-skills"></div>
+        </div>
+
+    </div>
+
+    <div class="snippet-section">
+        <p class="project-label">Code snippet</p>
+        <div class="terminal">
+            <div class="terminal-bar">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+                <span class="terminal-filename" id="terminal-filename">snippet.js</span>
+            </div>
+            <pre id="project-snippet" class="terminal-code"></pre>
+        </div>
+    </div>
+
+    <div id="project-screenshots" class="screenshots-grid"></div>
+
+</div>
+
+<script src="projects.js"></script>
+<script src="projectScript.js"></script>
+</body>
+</html>
