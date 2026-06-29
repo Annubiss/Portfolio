@@ -56,7 +56,7 @@ document.addEventListener("keydown", (e) => {
   },
 
   aTaleOfCleanCode: {
-    liveUrl: "Projects/A-tale-of-CleanCode/index.html",
+    liveUrl: "Projects/A-tale-of-CleanCode/Home.html",
     id: "A-tale-of-CleanCode",
     title: "A Tale of Clean Code",
     description: "Site multi-pagina despre filozofi si ideologii, construit cu HTML si CSS pur. Include pagini separate pentru Home, Filozofi si Ideologii, cu un stylesheet comun.",
@@ -127,7 +127,7 @@ function showAnimals() {
   },
 
   simpleChatBot: {
-    liveUrl: "Projects/simple-chat-bot-Annubiss/index.html",
+    liveUrl: "Projects/simple-chat-bot-Annubiss/main.html",
     id: "simple-chat-bot-Annubiss",
     title: "Simple Chat Bot",
     description: "Chatbot multi-pas in browser care ghiceste varsta utilizatorului folosind teorema chineza a resturilor, numara pana la un numar dat si pune un quiz de programare.",
@@ -230,7 +230,7 @@ for (let i = 0; i < repeatNumber; i++) {
   },
 
   caseConverter: {
-    liveUrl: "Projects/case-converter-Annubiss/index.html",
+    liveUrl: "Projects/case-converter-Annubiss/main.html",
     id: "case-converter-Annubiss",
     title: "Case Converter",
     description: "Tool web pentru conversie text cu patru moduri: UPPERCASE, lowercase, Proper Case si Sentence case. Include functie de download al textului ca fisier .txt.",
