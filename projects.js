@@ -1,7 +1,7 @@
 const projects = {
 
   virtualPiano: {
-    liveUrl: "Projects/virtual-piano-Annubiss",
+    liveUrl: "Projects/virtual-piano-Annubiss/index.html",
     id: "virtual-piano-Annubiss",
     title: "Virtual Piano",
     description: "Pian virtual controlat de la tastatura — fiecare tasta declanseaza un sunet real pentru clapele albe si negre, cu volum si playback rate configurabil.",
@@ -23,13 +23,13 @@ document.addEventListener("keydown", (e) => {
   },
 
   fantasticBeings: {
-     liveUrl: "Projects/fantastic-beings-and-how-to-match-them-Annubiss",
+     liveUrl: "Projects/fantastic-beings-and-how-to-match-them-Annubiss/index.html",
     id: "fantastic-beings-and-how-to-match-them-Annubiss",
     title: "Fantastic Beings and How to Match Them",
     description: "Joc match-3 cu tema Harry Potter — potrivesti creaturi magice pe o grila 5x5. Include algoritm de detectie a perechilor pe linii si coloane, sistem de scor, conditii de castig/pierdere si efecte sonore.",
     skills: ["HTML", "CSS", "JavaScript"],
     screenshots: ["Images/Match 3"],
-    snippet: `aaa function match3Plus() {
+    snippet: `function match3Plus() {
   const size = getGridSize()
   const toClear = new Set()
 
@@ -56,7 +56,7 @@ document.addEventListener("keydown", (e) => {
   },
 
   aTaleOfCleanCode: {
-    liveUrl: "Projects/A-tale-of-CleanCode",
+    liveUrl: "Projects/A-tale-of-CleanCode/index.html",
     id: "A-tale-of-CleanCode",
     title: "A Tale of Clean Code",
     description: "Site multi-pagina despre filozofi si ideologii, construit cu HTML si CSS pur. Include pagini separate pentru Home, Filozofi si Ideologii, cu un stylesheet comun.",
@@ -78,7 +78,7 @@ document.addEventListener("keydown", (e) => {
   },
 
   aBeautifulTale: {
-    liveUrl: "Projects/a-beautiful-tale-of-Annubiss",
+    liveUrl: "Projects/a-beautiful-tale-of-Annubiss/index.html",
     id: "a-beautiful-tale-of-Annubiss",
     title: "A Beautiful Tale",
     description: "Site multi-pagina cu tema de gladiatori romani, cu night mode, typing effect animat si preview dinamic de imagini la click pe celule dintr-un tabel hero.",
@@ -101,7 +101,7 @@ document.addEventListener("keydown", (e) => {
   },
 
   zookeeper: {
-    liveUrl: "Projects/zookeeper-Annubiss",
+    liveUrl: "Projects/zookeeper-Annubiss/index.html",
     id: "zookeeper-Annubiss",
     title: "Zookeeper",
     description: "Aplicatie web interactiva care afiseaza animale ASCII art dintr-o gradina zoologica virtuala. Utilizatorul navigheaza prin habitate folosind prompt-uri in browser.",
@@ -127,7 +127,7 @@ function showAnimals() {
   },
 
   simpleChatBot: {
-    liveUrl: "Projects/simple-chat-bot-Annubiss",
+    liveUrl: "Projects/simple-chat-bot-Annubiss/index.html",
     id: "simple-chat-bot-Annubiss",
     title: "Simple Chat Bot",
     description: "Chatbot multi-pas in browser care ghiceste varsta utilizatorului folosind teorema chineza a resturilor, numara pana la un numar dat si pune un quiz de programare.",
@@ -146,7 +146,7 @@ function verifyNumber() {
   },
 
   myFirstShop: {
-    liveUrl: "Projects/my-first-shop-Annubiss",
+    liveUrl: "Projects/my-first-shop-Annubiss/index.html",
     id: "my-first-shop-Annubiss",
     title: "My First Shop",
     description: "Aplicatie Node.js CLI care afiseaza preturile si castigurile unui magazin, calculeaza profitul net dupa deducerea cheltuielilor cu personalul si a altor costuri.",
@@ -166,7 +166,7 @@ function verifyNumber() {
   },
 
   chalkboardPrinter: {
-    liveUrl: "Projects/chalkboard-printer-Annubiss",
+    liveUrl: "Projects/chalkboard-printer-Annubiss/index.html",
     id: "chalkboard-printer-Annubiss",
     title: "Chalkboard Printer",
     description: "Aplicatie Node.js CLI care primeste un nume, prenume, mesaj si numar de repetari, afisand mesajul personalizat de N ori in terminal.",
@@ -185,7 +185,7 @@ for (let i = 0; i < repeatNumber; i++) {
   },
 
   coffeeMachine: {
-    liveUrl: "Projects/coffee-machine-Annubiss",
+    liveUrl: "Projects/coffee-machine-Annubiss/index.html",
     id: "coffee-machine-Annubiss",
     title: "Coffee Machine",
     description: "Simulare completa a unei masini de cafea in Node.js — gestioneaza resurse (apa, lapte, boabe), vinde 3 tipuri de cafea (espresso, latte, cappuccino) si calculeaza profitul acumulat.",
@@ -208,7 +208,7 @@ for (let i = 0; i < repeatNumber; i++) {
   },
 
   carnivalGiftShop: {
-    liveUrl: "Projects/carnival-gift-shop-Annubiss",
+    liveUrl: "Projects/carnival-gift-shop-Annubiss/index.html",
     id: "carnival-gift-shop-Annubiss",
     title: "Carnival Gift Shop",
     description: "Magazin de premii de carnaval in Node.js cu sistem de tichete, inventar de cadouri, validare numerica a input-ului si preventie impotriva cumpararii duplicate.",
@@ -230,7 +230,7 @@ for (let i = 0; i < repeatNumber; i++) {
   },
 
   caseConverter: {
-    liveUrl: "Projects/case-converter-Annubiss",
+    liveUrl: "Projects/case-converter-Annubiss/index.html",
     id: "case-converter-Annubiss",
     title: "Case Converter",
     description: "Tool web pentru conversie text cu patru moduri: UPPERCASE, lowercase, Proper Case si Sentence case. Include functie de download al textului ca fisier .txt.",
@@ -253,7 +253,7 @@ function download(filename, text) {
   },
 
   spinTheBottle: {
-    liveUrl: "Projects/spin-the-bottle-Annubiss",
+    liveUrl: "Projects/spin-the-bottle-Annubiss/index.html",
     id: "spin-the-bottle-Annubiss",
     title: "Spin the Bottle",
     description: "Joc de spin the bottle in browser — adaugi jucatori printr-un formular, apesi Spin si dupa un delay de 2 secunde se afiseaza un castigator ales aleatoriu.",
@@ -273,7 +273,7 @@ function download(filename, text) {
   },
 
   simpleStopwatch: {
-    liveUrl: "Projects/simple-stopwatch-Annubiss",
+    liveUrl: "Projects/simple-stopwatch-Annubiss/index.html",
     id: "simple-stopwatch-Annubiss",
     title: "Simple Stopwatch",
     description: "Cronometru cu start, stop, reset si lap. Afiseaza timpul in format MM:SS:cs cu culori dinamice: verde sub 10s, portocaliu pana la 30s, rosu dupa.",
@@ -301,7 +301,7 @@ function formatTime(ms) {
   },
 
   colorGuessGame: {
-    liveUrl: "Projects/color-guess-game-Annubiss",
+    liveUrl: "Projects/color-guess-game-Annubiss/index.html",
     id: "color-guess-game-Annubiss",
     title: "Color Guess Game",
     description: "Joc de ghicit culori RGB — dai click pe culoarea care corespunde codului RGB afisat. Culorile gresite dispar progresiv, iar titlul paginii are un gradient din toate culorile active.",
@@ -322,7 +322,7 @@ function colorChecker(elem, rgbText) {
   },
 
   amazingPrices: {
-    liveUrl: "Projects/amazing-prices-Annubiss",
+    liveUrl: "Projects/amazing-prices-Annubiss/index.html",
     id: "amazing-prices-Annubiss",
     title: "Amazing Prices",
     description: "Calculator de venituri Node.js — afiseaza preturile si castigurile pe produs, citeste cheltuielile introduse de utilizator si calculeaza profitul net total.",
@@ -339,7 +339,7 @@ function colorChecker(elem, rgbText) {
   },
 
   firstLanding: {
-    liveUrl: "Projects/first-landing-Annubiss",
+    liveUrl: "Projects/first-landing-Annubiss/index.html",
     id: "first-landing-Annubiss",
     title: "First Landing Page",
     description: "Landing page multi-pagina (Home, Product, Contact) pentru un magazin fictiv, construit cu HTML si CSS. Prima pagina web completa cu navigatie functionala intre sectiuni.",
@@ -358,7 +358,7 @@ function colorChecker(elem, rgbText) {
   },
 
   javascriptPractice: {
-    liveUrl: "Projects/javascript-practice-Annubiss",
+    liveUrl: "Projects/javascript-practice-Annubiss/index.html",
     id: "javascript-practice-Annubiss",
     title: "JavaScript Practice",
     description: "Set de exercitii JavaScript rezolvate cu teste Jest — acopera array manipulation, string processing, algoritmi matematici (numere prime, DNA, matrice) si structuri de date complexe.",
@@ -379,7 +379,7 @@ export const findWinner = (board) => {
   },
 
 dogGlossary: {
-  liveUrl: "Projects/dog-glossary-Annubiss",
+  liveUrl: "Projects/dog-glossary-Annubiss/index.html",
     id: "dog-glossary-Annubiss",
     title: "Dog Glossary",
     description: "Aplicatie web care consuma Dog CEO API — afiseaza caini aleatorii, cauti dupa rasa, vezi sub-rase si listezi toate rasele disponibile cu sub-rase imbricate.",
@@ -404,7 +404,7 @@ dogGlossary: {
   },
 
   randomUserGenerator: {
-    liveUrl: "Projects/random-user-generator-Annubiss",
+    liveUrl: "Projects/random-user-generator-Annubiss/index.html",
     id: "random-user-generator-Annubiss",
     title: "Random User Generator",
     description: "Generator de utilizatori aleatorii folosind randomuser.me API. Poti selecta ce campuri sa fie afisate (nume, email, poza, locatie etc.), salva utilizatori in localStorage si re-reda lista la refresh.",
@@ -431,7 +431,7 @@ function createUserCard(user, selected) {
   },
 
   websiteForTheVisuallyImpaired: {
-    liveUrl: "Projects/website-for-the-visually-impaired-Annubiss",
+    liveUrl: "Projects/website-for-the-visually-impaired-Annubiss/index.html",
     id: "website-for-the-visually-impaired-Annubiss",
     title: "Website for the Visually Impaired",
     description: "Tool de accesibilitate web — panou de control care permite schimbarea dinamica a dimensiunii textului (Small/Medium/Large/Larger) si a temei de culori (White/Yellow/Blue) pe orice pagina.",
@@ -456,7 +456,7 @@ function applyColors(color) {
   },
 
   urlShortener: {
-    liveUrl: "Projects/url-shortener-Annubiss",
+    liveUrl: "Projects/url-shortener-Annubiss/index.html",
     id: "url-shortener-Annubiss",
     title: "URL Shortener",
     description: "URL shortener in browser — genereaza coduri scurte aleatorii, afiseaza URL-ul original, numara click-urile pe fiecare link si permite editarea codului scurt. Include efect glitch CSS pe titlu la fiecare creare.",
@@ -481,7 +481,7 @@ function clickCounter() {
   },
 
   toDoList: {
-    liveUrl: "Projects/to-do-list-Annubiss",
+    liveUrl: "Projects/to-do-list-Annubiss/index.html",
     id: "to-do-list-Annubiss",
     title: "To-Do List",
     description: "Aplicatie de task management cu persistenta in localStorage — adaugi task-uri, le bifezi ca finalizate, le stergi, iar lista se salveaza si se reincarca automat la refresh.",
@@ -511,7 +511,7 @@ function clickCounter() {
   },
 
   openSpace: {
-    liveUrl: "Projects/open-space-Annubiss",
+    liveUrl: "Projects/open-space-Annubiss/index.html",
     id: "open-space-Annubiss",
     title: "Open Space",
     description: "Proiect CSS/UI experimental — un panou de control spatial cu checkboxuri, slidere si un buton de lansare, animat cu CSS. Accent pe design si atmosfera vizuala.",
