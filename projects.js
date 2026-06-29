@@ -29,7 +29,7 @@ document.addEventListener("keydown", (e) => {
     description: "Joc match-3 cu tema Harry Potter — potrivesti creaturi magice pe o grila 5x5. Include algoritm de detectie a perechilor pe linii si coloane, sistem de scor, conditii de castig/pierdere si efecte sonore.",
     skills: ["HTML", "CSS", "JavaScript"],
     screenshots: ["Images/Match 3"],
-    snippet: `function match3Plus() {
+    snippet: `aaa function match3Plus() {
   const size = getGridSize()
   const toClear = new Set()
 
