@@ -1,0 +1,23 @@
+{
+  "name": "chalkboard-printer-annubiss",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EWtaiDny) # Chalkboard-Printer If you remember the Simpsons intro, you know there is a running joke about Bart Simpson writing sentences on a chalkboard as a punishment. Similarly, this project aims to recreate that humorous experience by developing a JavaScript program that prints various jokes to the console.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clean-Code-Academy/chalkboard-printer-Annubiss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clean-Code-Academy/chalkboard-printer-Annubiss/issues"
+  },
+  "homepage": "https://github.com/Clean-Code-Academy/chalkboard-printer-Annubiss#readme",
+  "dependencies": {
+    "sync-input": "https://github.com/hyperskill/sync-input/archive/v1.tar.gz"
+  }
+}

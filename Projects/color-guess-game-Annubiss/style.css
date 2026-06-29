@@ -1,0 +1,75 @@
+.color-block {
+ display: inline-block;
+ margin: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+ padding: 20px;
+}
+
+/* .color-block:nth-of-type(1) {background: rgb(255, 0, 0)}
+.color-block:nth-of-type(2) {background: rgb(255, 255, 0)}
+.color-block:nth-of-type(3) {background: rgb(0, 255, 0)}
+.color-block:nth-of-type(4) {background: rgb(0, 255, 255)}
+.color-block:nth-of-type(5) {background: rgb(0, 0, 255)}
+.color-block:nth-of-type(6) {background: rgb(255, 0, 255)} */
+
+h1 {
+    font-size: 12vh;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 5vh;
+    text-align: center;
+    text-decoration: solid;
+}
+
+button {
+    width: 10vh;
+    height: 4vh;
+    display: flex;
+    margin-left: 47vw;
+    align-items: center;
+    justify-content: center;
+    border: 999px;
+    border-radius: 999px;
+    background-color: aqua;
+}
+
+#div-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-cont div {
+    width: 3vh;
+    height: 3vh;
+}
+
+#rgbText{
+    font-weight: 800;
+    background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, magenta, blue, cyan, lime, yellow, orange, red);
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: rainbowMove 11s linear infinite;
+}
+
+@keyframes rainbowMove {
+    from { background-position: 0% 50%;}
+    to { background-position: 100% 50%;}
+}
+
+body {
+    background-color: white;
+}
+
+
+

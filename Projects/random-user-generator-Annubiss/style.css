@@ -1,0 +1,140 @@
+:root {
+    --bg: #0b1220;
+    --panel: rgba(255, 255, 255, .06);
+    --panel-2: rgba(255, 255, 255, .09);
+    --stroke: rgba(255, 255, 255, .12);
+    --text: rgba(255, 255, 255, .92);
+    --muted: rgba(255, 255, 255, .68);
+    --accent: #46e6ff;
+    -accent-2: #7c5cff;
+    --danger: #ff5c7a;
+
+    --radius: clamp(0.8rem, 1.4vw, 1.2rem);
+    --gap: clamp(0.5rem, 1.2vw, 0.9rem);
+    --pad: clamp(0.8rem, 1.6vw, 1.25rem);
+    --shadow: 0 0.6rem 1.4rem rgba(0, 0, 0, .25);
+
+
+    -app-max: clamp(20rem, 92vw, 74rem);
+}
+
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text);
+
+    background: 
+        radial-gradient(
+            clamp(26rem, 55vw, 60rem)
+            clamp(18rem, 40vh, 45rem)
+            at 10% 10%,
+
+            rgba(70, 230, 255, .16), transparent 60%
+        ),
+        
+        radial-gradient(
+            clamp(22rem, 48vw, 55rem)
+            clamp(16rem, 35vh, 40rem)
+            at 90% 15%,
+
+            rgba(124, 92, 255, .18), transparent 55%
+        ), 
+        var(--bg);
+}
+
+#every-visible-part {
+    width: var(--app-max);
+    margin: clamp(1rem, 3vw, 2rem) auto clamp(2rem, 5vw, 4rem);
+    padding-inline: clamp(0rem, 1.5vw, 0.5rem);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    
+    padding: var(--pad);
+    border: 1px solid var(--stroke);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .08), rgba(255, 255, 255, .04));
+    border-radius: var(--radius);
+    backdrop-filter: blur(10px);
+
+    
+    font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+    letter-spacing: 0.1rem;
+}
+
+
+#btns-select-data {
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+
+    margin-top: var(--gap);
+    padding: var(--pad);
+    border: 2px solid var(--stroke);
+    background: var(--panel);
+    border-radius: var(--radius);
+    backdrop-filter: blur(10px);
+}
+
+/* #btns-select-data button.active {
+    background-color: aqua;
+} */
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 6vh;
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: aliceblue;
+    font-size: clamp(0.75rem, 1vw, 10rem);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, .10);
+    border-color: rgba(255, 255, 255, .18);
+}
+
+button:active { transform: translateY(3px);}
+
+button.active {
+    border-color: rgba(70, 230, 255, .55);
+    background-color: rgba(70, 230, 255, .14);
+    box-shadow: 0 0.8rem 1.6rem rgba(70, 230, 255, .10), var(--shadow);
+}
+
+
+#btns-row--top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap);
+
+    width: fit-content;
+}
+
+#btns-row-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap);
+    margin-top: var(--gap);
+    width: fit-content;
+}
+
+#btns-row-bottom button {
+    background: rgba(124, 92, 255, .16);
+    border-color: rgba(124, 92, 255, .35);
+}
+
+#btns-row-bottom button:hover {
+    background: rgba(124, 92, 255, .22);
+}
+
+#select-all {
+    background: rgba(255, 255, 255, .10);
+}

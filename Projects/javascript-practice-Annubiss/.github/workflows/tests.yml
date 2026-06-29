@@ -1,0 +1,24 @@
+name: Test all code
+
+on: [push]
+
+permissions:
+  contents: read
+  issues: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci                   # install packages
+      - run: npm run test:ci          # run tests (configured to use jest-junit reporter)
+
+      - name: Test Report
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        id: test-results
+        if: always()
+        with:
+          files: "reports/**/*.xml"

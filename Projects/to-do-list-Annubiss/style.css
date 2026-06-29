@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#add-task-button {
+    border: hidden;
+    background-color: rgba(188, 129, 244, 0.873);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#input-task {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color:rgba(169, 84, 193, 0.93) ;
+
+    width: 20vw;
+    height: 2vh;
+}
+
+#input-task:focus {
+    outline: none;
+}
+
+ul button {
+    background-color: rgb(230, 40, 40);
+    height: 2.5vh;
+    width: 1.25vw;
+
+    border-radius: 12px;
+    border: none;
+    color: aliceblue;
+    font-family: "Arial Rounded MT Bold";
+    
+    
+}
+
+#task-list {
+    list-style: none;
+    list-style-position: inside;
+    width: 100%;
+    padding-left: 0;
+}
+
+#task-list li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.task-text {
+    flex: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+

@@ -1,0 +1,38 @@
+.philo-table {
+    border-collapse: collapse;
+}
+
+.philo-table th, 
+.philo-table td {
+    border: 1px solid black;
+    padding: 6px 10px;
+}
+
+.name-cell {
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.photo-cell {
+    vertical-align: middle;
+}
+
+.photo-cell img {
+    display: block;
+    max-width: auto;
+    height: 300px;
+}
+.age-cell {
+    width: 120px;
+    text-align: center;
+}
+
+.details-cell {
+    width: 350px;
+    text-align: left;
+}
+#home-page {
+    background-image: none;
+    background-color: white;
+}

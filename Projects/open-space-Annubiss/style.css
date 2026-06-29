@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+}
+
+.space {
+    background-image: url("Images/space.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.planet-area {
+    background-image: url(Images/mars.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 40vw;
+    height: 100vh;
+}
+
+.rocket {
+    background-image: url(Images/rocket.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 40vh;
+    position: relative;
+    top: 30vh;
+    left: 20vw;
+    transform: rotate(45deg);
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(14, 121, 220);
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    left: 55vw;
+    top: 5vh;
+
+    
+}
+
+input[type="password"] {
+    border-radius: 12px;
+}
+
+.check-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    
+    margin: 4vh;
+    transform:scale(2.3);
+    
+}
+
+input[type="range"] {
+    writing-mode: vertical-lr;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5vw;
+
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance: none;
+
+    width: 1.5vw;
+    height: 3vh;
+
+    background: rgba(232, 103, 10, 0.88);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance:none;
+    appearance: none;
+
+    width: 1.5vw;
+    height: 3vh;
+
+    background: rgba(232, 103, 10, 0.88);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.levers {
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    margin: 10vh;
+}
+
+button {
+    border-radius: 12px;
+}
+
+#launch-pass-input {
+    height: 5vh;
+    width: 20vw;
+    margin: 5%;
+    
+}
+
+#pass-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ok-btn {
+    width: 5vw;
+    height: 3vh;
+}
+
+#launch-btn {
+    width: 10vw;
+    height: 5vh;
+    margin: 5%;
+}
+
+.control-panel_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    border: 2px solid #0a2740;
+    border-radius: 14px;
+
+    background: 
+        radial-gradient(
+            circle at top center,
+            rgba(255, 255, 255, 0.08) 0%,
+            rgba(255, 255, 255, 0.02) 22%, 
+            transparent 45%
+        ), 
+        repeating-linear-gradient(
+            90deg, 
+            rgba(255, 255, 255, 0.1) 0px,
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 1px,
+            transparent 36px
+        ),
+        
+        linear-gradient(
+            180deg,
+            #15579b 0%,
+            #124f90 35%,
+            #104985 65%,
+            #0d3f71 100%
+        );
+    
+}
