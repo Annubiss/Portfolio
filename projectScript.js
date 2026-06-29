@@ -8,6 +8,7 @@ const screenshotsContainer = document.getElementById("project-screenshots")
 document.getElementById("project-title").textContent = project.title
 document.getElementById("project-description").textContent = project.description
 document.getElementById("project-snippet").textContent = project.snippet
+document.getElementById("project-iframe").src = project.liveUrl
 
 
 project.skills.forEach(skill => {
